@@ -1,9 +1,4 @@
-.. Python Email Crawler documentation master file, created by
-   sphinx-quickstart on Fri Aug  3 12:26:56 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Python Email Crawler's documentation!
+EmailHunter clone documentation!
 ================================================
 
 This python script search certain keywords on Google, crawls the webpages from the results, and return all emails found.
@@ -23,11 +18,11 @@ Requirements
 ------
 Usage
 ------
-Start the search with a keyword. We use "iphone developers" as an example.
+Start the search with a keyword. I use “vox.com” as an example.
 
 .. code-block:: bash
 
-	$ ./email_crawler.py "iphone developers"
+	$ ./email_crawler.py “vox.com”
 
 The search and crawling process will take quite a while, as it retrieve up to 500 search results (from Google), and crawl up to 2 level deep. It shold crawl around 10,000 webpages :)
 
